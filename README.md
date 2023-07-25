@@ -1,2 +1,2 @@
 React-Nativeを用いたスマホアプリ
-#Expoで実装可能
+\nExpoで実装可能
