@@ -17,10 +17,10 @@ const Account = () => {
             Profile Avatar
           </Avatar>
           <Text marginTop={4} fontSize={'lg'} fontWeight={'semibold'}>
-            Itta
+            Moemi
           </Text>
           <Text style={{ color: 'gray' }} fontSize={'md'}>
-            自称エンジニア
+            Genius
           </Text>
           <HStack marginTop={4} space={4}>
             <VStack>

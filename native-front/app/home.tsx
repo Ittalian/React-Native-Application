@@ -7,8 +7,7 @@ const Home = () => {
       <Center>
         <Text>ホーム画面</Text>
         <Center marginTop={4}>
-          <Text fontSize={'lg'}>【課題用】</Text>
-          <Text fontSize={'lg'}>こちらのページを編集してみよう！</Text>
+          <Text fontSize={'lg'}　style={{ color: 'blue' }}>React Native</Text>
         </Center>
       </Center>
     </ScrollView>

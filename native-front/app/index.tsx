@@ -6,9 +6,18 @@ const Page = () => {
   return (
     <ScrollView>
       <Center mt={'4'}>
-        <Text>初期ページ</Text>
+        <Text fontSize={'lg'} fontWeight={'bold'}>初期ページ</Text>
       </Center>
-      <Link href="/home">ホーム画面へ</Link>
+
+      <Center mt={'10'}>
+      <Link href="/home">ホーム</Link>
+      <Center> </Center>
+      <Link href="/account">マイアカウント</Link>
+      <Center> </Center>
+      <Link href="/search">検索</Link>
+      <Center> </Center>
+      <Link href="/cart">カート</Link>
+      </Center>
     </ScrollView>
   )
 }

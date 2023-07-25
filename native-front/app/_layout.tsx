@@ -87,7 +87,28 @@ export default function HomeLayout() {
                 size="sm"
               />
               <Text color="white" fontSize="12">
-                Account
+                ユーザー１
+              </Text>
+            </Center>
+          </Pressable>
+          <Pressable
+            opacity={selected === 4 ? 1 : 0.5}
+            py="2"
+            flex={1}
+            onPress={() => {
+              setSelected(4)
+              router.push('/account2')
+            }}
+          >
+            <Center>
+              <Icon
+                mb="1"
+                as={<MaterialCommunityIcons name={selected === 4 ? 'account' : 'account-outline'} />}
+                color="white"
+                size="sm"
+              />
+              <Text color="white" fontSize="12">
+                ユーザー2
               </Text>
             </Center>
           </Pressable>
