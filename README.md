@@ -1,2 +1,1 @@
-React-Nativeを用いたスマホアプリ
-\nExpoで実装可能
+React-Nativeを用いたスマホアプリ(Expoで実装可能)
