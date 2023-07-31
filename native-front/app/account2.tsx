@@ -10,7 +10,7 @@ const Account = () => {
         <Center marginTop={4}>
           <Avatar
             source={{
-              uri: `https://picsum.photos/200`
+              uri: `https://picsum.photos/id/237/200/300`
             }}
             size={'lg'}
           >

@@ -9,7 +9,7 @@ export default function HomeLayout() {
   return (
     <NativeBaseProvider>
       <Stack />
-      {/* ここからフッター */}
+      {/* フッター */}
       <Box safeAreaBottom width="100%">
         <HStack bg="black" alignItems="center" safeAreaBottom>
           <Pressable
@@ -76,7 +76,7 @@ export default function HomeLayout() {
             flex={1}
             onPress={() => {
               setSelected(3)
-              router.push('/account')
+              router.push('/account-rock')
             }}
           >
             <Center>

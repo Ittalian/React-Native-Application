@@ -1,7 +1,9 @@
+import React, {Component} from 'react'
 import { StatusBar } from 'expo-status-bar'
 import { Box, Button, NativeBaseProvider, Text } from 'native-base'
 
-export default function App() {
+type Props = {}
+export default function App(){
   return (
     <NativeBaseProvider>
       <Box colorScheme={'red'} color={'red'}>
