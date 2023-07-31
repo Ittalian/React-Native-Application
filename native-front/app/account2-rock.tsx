@@ -3,7 +3,7 @@ import { Avatar, Box, Center, Divider, HStack, Icon, ScrollView, Text, VStack } 
 import { MaterialCommunityIcons, Feather, Octicons, Fontisto } from '@expo/vector-icons'
 import React from 'react'
 
-const AccountRock = () => {
+const Account2Rock = () => {
   return (
     <ScrollView>
       <Center>
@@ -18,7 +18,7 @@ const AccountRock = () => {
             Profile Avatar
           </Avatar>
           <Text marginTop={4} fontSize={'lg'} fontWeight={'semibold'}>
-            Itta
+            Moemi
           </Text>
           <Center> </Center>
         </Center>
@@ -32,10 +32,10 @@ const AccountRock = () => {
             このアカウントは非公開です
         </Text>
         <Center> </Center>
-        <Link href="/account">ログイン</Link>
+        <Link href="/account2">ログイン</Link>
         </Center>
     </ScrollView>
   )
 }
 
-export default AccountRock
+export default Account2Rock

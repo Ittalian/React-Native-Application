@@ -12,7 +12,9 @@ const Page = () => {
       <Center mt={'10'}>
       <Link href="/home">ホーム</Link>
       <Center> </Center>
-      <Link href="/account-rock">マイアカウント</Link>
+      <Link href="/account-rock">マイアカウント1</Link>
+      <Center> </Center>
+      <Link href="/account2-rock">マイアカウント2</Link>
       <Center> </Center>
       <Link href="/search">検索</Link>
       <Center> </Center>

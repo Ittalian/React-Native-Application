@@ -97,7 +97,7 @@ export default function HomeLayout() {
             flex={1}
             onPress={() => {
               setSelected(4)
-              router.push('/account2')
+              router.push('/account2-rock')
             }}
           >
             <Center>

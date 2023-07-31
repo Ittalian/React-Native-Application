@@ -5,9 +5,8 @@ const Home = () => {
   return (
     <ScrollView>
       <Center>
-        <Text>ホーム画面</Text>
-        <Center marginTop={4}>
-          <Text fontSize={'lg'}　style={{ color: 'blue' }}>React Native</Text>
+        <Center marginTop={250}>
+          <Text fontSize={'lg'}　style={{ color: 'black' }}>ホーム画面</Text>
         </Center>
       </Center>
     </ScrollView>
